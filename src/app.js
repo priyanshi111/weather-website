@@ -26,7 +26,7 @@ app.get('',(req,res) => { //setting up the route
 app.get('/about',(req,res) => { //setting up the about route 
     res.render('about',{
         title : 'About me',
-        name : 'pri'
+        name : 'priya'
     })
 })
 app.get('/help',(req,res) =>{
